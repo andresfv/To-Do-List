@@ -5,10 +5,21 @@ import { crearTodoHtml } from './js/componentes';
 
 export const todoList = new TodoList();
 
-const tarea = new Todo('Aprender Javascript');
 
-todoList.nuevoTodo(tarea);
+// Agrega un elemento en la vista por cada valor en la variable "todoList"
+// todoList.todos.forEach(todo => {crearTodoHtml( todo )});
+// Version simplificada solo cuando es un solo argumento
+todoList.todos.forEach( crearTodoHtml );
 
-console.log(todoList);
+// const tarea = new Todo('Aprender Javascript');
+// todoList.nuevoTodo(tarea);
+// console.log(todoList);
 
-crearTodoHtml(tarea);
+// crearTodoHtml(tarea);
+
+// localStorage.setItem('miKey', 'ABC123'); //Almacena en el local storage, este es por dominio
+// sessionStorage.setItem('miKey', 'ABC123'); //Almacena en el storage se la sesion del navegador
+
+// setTimeout( ()=>{
+// localStorage.removeItem('miKey');
+// }, 1500);
