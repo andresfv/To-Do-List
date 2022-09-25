@@ -1,6 +1,7 @@
 # Webpack Starter
+Crea una lista con tareas por hacer en donde se pueden agregar, marcar con listas o eliminar tareas, además cuenta con funciones de filtrado.
 
-Este es el proyecto plantilla para crear aplicaciones utilizando Webpack.
+Este es un proyecto de ejemplo para el curso de javascript moderno
 
 ## Notas:
 
@@ -12,3 +13,7 @@ Y para reconstruir el build
 ```
 npm run build
 ```
+
+Finalmente ejecutar el servidor
+```
+npm start
